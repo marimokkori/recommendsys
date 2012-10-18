@@ -10,6 +10,8 @@ import time
 import math
 import db_config as dbconf
 
+
+
 # initialize the experiment for first use
 def initialize():
     coll.initialize_collaborative_filter()

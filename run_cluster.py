@@ -2,6 +2,7 @@ import clusters
 import MySQLdb as db
 import db_config as dbconf
 
+
 # fetch the data for cluster from database
 def get_data_from_db():
     # get data from database

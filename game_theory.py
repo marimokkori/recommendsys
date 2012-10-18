@@ -3,6 +3,7 @@ import MySQLdb as db
 import random
 import db_config as dbconf
 
+
 # from a strategy name list, find the list of the winning value of the strategy
 def gen_payoff_list( name_list ):
     winning_list = []

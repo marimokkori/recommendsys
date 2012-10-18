@@ -1,6 +1,7 @@
 import random
 import game_theory as gt
 
+
 def merge_payoff_and_name(payoff_list, name_from_result):
     result = []
     for i in range( len(payoff_list) ):

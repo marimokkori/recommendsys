@@ -2,6 +2,7 @@ import collaborative_filtering as func_set
 import MySQLdb as db
 import db_config as dbconf
 
+
 def gen_item_dict_from_db():
     # get data from database
     con = dbconf.connect_db()

@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import random
 import MySQLdb as db
 import db_config as dbconf
+
   
 # method_list = ('game theory', 'genetic optimize', 'annealing optimize')
 def draw_pic(x_vec, y_vec, x_label='', y_label='', title=''):

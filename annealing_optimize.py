@@ -2,6 +2,7 @@ import random
 import math
 import game_theory as gt
 
+
 # optimize function: Annealing, use schedule_cost as the cost function
 def annealing_optimize( result_from_coll_filter, movie_had_seen, result_from_cluster, movie_name_arr ):
     temperature = 5000.0
